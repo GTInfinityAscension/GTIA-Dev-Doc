@@ -12,4 +12,4 @@ Changelogs and release notes are written in English. Mods (GTIACore, GTNA, Agron
 
 ## Mobile
 
-The pack targets Android through the Amethyst launcher with the `.mrpack` build, the same way GTNH supports mobile. Only the official `.mrpack` with default configs is supported; mobile bugs use the mobile issue form.
+The pack targets Android through the Amethyst launcher with the `.mrpack` build, the same way GTNH supports mobile; the player guide is [docs/MOBILE.md](https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension/blob/main/docs/MOBILE.md). The `.mrpack` is built by `tools/mrpack.py` (`--test` embeds the CurseForge-only mods, for private tests only). Only the official `.mrpack` with default configs is supported; mobile bugs use the mobile issue form.
