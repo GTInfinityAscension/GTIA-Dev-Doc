@@ -21,3 +21,18 @@ GTIACore needs GTNA and AE2 at runtime. Without them, pass `-PgtiaDevOptionalDep
 ## The modpack
 
 The pack is managed with packwiz. `manifest/full.lock.json` is the source of truth: `tools/pack.py lock|fetch`, then `tools/packwiz_sync.py`. Quests are generated from `quests-src/` with `tools/questgen.py build` and checked with `tools/questgen.py check`.
+
+## Organisation Maven
+
+Released mod jars are published at **https://gtinfinityascension.github.io/maven/** (no login needed). The [maven repository](https://github.com/GTInfinityAscension/maven) checks for new GitHub releases every 6 hours and keeps the newest 5 versions of each artifact.
+
+```groovy
+repositories {
+    maven { url = 'https://gtinfinityascension.github.io/maven/' }
+}
+dependencies {
+    modCompileOnly("com.raishxn.gtna:gtna:0.6.0") { transitive = false }
+}
+```
+
+GTIACore compiles against GTNA from there. To compile against a local GTNA build instead, pass `-PgtnaApiJar=/path/to/gtna.jar`. To publish a new mod, add it to `artifacts.json` in the maven repository.
