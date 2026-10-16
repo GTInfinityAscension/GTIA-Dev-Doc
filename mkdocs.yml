@@ -33,3 +33,4 @@ nav:
       - Setup: development/setup.md
       - Code conventions: development/conventions.md
       - GameTests: development/gametests.md
+      - Performance: development/performance.md
