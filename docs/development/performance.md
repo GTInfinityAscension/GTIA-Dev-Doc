@@ -27,6 +27,7 @@ Results are appended to `~/MineProjects/GTIA-arquivo/perf/<label>.jsonl`. Profil
 | Spawn chunks 441 → 25 (`spawnchunks`) | Ascension Optimizer | ready in 47 s, world prep 21.0 s, live heap 887 MB | 31 s, 5.9 s, 625 MB |
 | Infinity cover check without building lists | GTNA | 8.37 ms/tick (2,000 working LV furnaces) | 3.74 ms/tick |
 | Allocation-light `getCovers()` (`gtcovers`) | Ascension Optimizer | 8.37 ms/tick | 3.93 ms/tick |
+| ModernFix `dynamic_resources` on, LeanObject server-only | Pack config | client live heap at the menu 1,030 MB (4 GB limit) | 650 MB |
 
 ## Rules
 
