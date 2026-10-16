@@ -1,0 +1,35 @@
+site_name: GTIA Dev Docs
+site_url: https://gtinfinityascension.github.io/GTIA-Dev-Doc/
+site_description: Vision, governance and development guides for GregTech Infinity Ascension
+repo_url: https://github.com/GTInfinityAscension/GTIA-Dev-Doc
+repo_name: GTInfinityAscension/GTIA-Dev-Doc
+copyright: "GregTech Infinity Ascension team"
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle: { icon: material/brightness-4, name: Switch to light mode }
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle: { icon: material/brightness-7, name: Switch to dark mode }
+  features: [navigation.tabs, navigation.sections, navigation.top, search.highlight, content.code.copy, toc.follow]
+
+markdown_extensions: [tables, admonition, toc]
+
+nav:
+  - Home: index.md
+  - Vision:
+      - Pillars: vision/pillars.md
+      - Tiers: vision/tiers.md
+      - Systems: vision/systems.md
+  - Governance:
+      - Decisions: governance/decisions.md
+      - Releases: governance/releases.md
+  - Development:
+      - Setup: development/setup.md
+      - Code conventions: development/conventions.md
+      - GameTests: development/gametests.md
