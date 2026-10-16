@@ -35,3 +35,11 @@ Results are appended to `~/MineProjects/GTIA-arquivo/perf/<label>.jsonl`. Profil
 2. Keep the optimization switchable (Ascension Optimizer features can be turned off in `config/ascopt-mixins.properties`).
 3. Run the mod's full GameTest suite after the change.
 4. Record the numbers in the commit, the changelog and this page.
+
+## Tried and rejected
+
+| Change | Result | Why it was dropped |
+| --- | --- | --- |
+| Cache `RecipeHandlerList.doesCapabilityBypassDistinct()` and skip the battery-slot copy in `NotifiableEnergyContainer` | 4.29 → 4.51 ms/tick (runs vary 3.7–4.6 ms) | No gain beyond noise; the remaining machine tick cost is spread over GTCEu's recipe handling |
+| ModernFix `dynamic_resources` with LeanObject on the client | Client crash (`ClassCastException` in the model map) | LeanObject's FastCollection replaces the map ModernFix expects; LeanObject became server-only |
+| Smaller GTCEu `oreGenerationChunkCacheSize` | Not measured | Can cut ore veins; only with proof that generation is identical |
