@@ -13,6 +13,8 @@ The pack targets **under 4 GB of RAM** on servers and clients, and Android throu
 | `heap_after_gc_mb` | Live heap after a forced full GC (class histogram) |
 | `mspt` | Average server tick time while `/gtialib bench` keeps a grid of GT machines running |
 
+The client side uses `tools/client_bench.py`: it joins a test world on the Prism instance with a given heap limit and records live heap, RSS and out-of-memory errors.
+
 ```sh
 python3 tools/perf_bench.py my-label --runs 3 --extra DIR_WITH_CANDIDATE_JARS \
     --tick gtceu:lv_electric_furnace:2000:minecraft:raw_iron --replace gtna=path/to/gtna.jar --off gtcovers
@@ -27,6 +29,7 @@ Results are appended to `~/MineProjects/GTIA-arquivo/perf/<label>.jsonl`. Profil
 | Spawn chunks 441 → 25 (`spawnchunks`) | Ascension Optimizer | ready in 47 s, world prep 21.0 s, live heap 887 MB | 31 s, 5.9 s, 625 MB |
 | Infinity cover check without building lists | GTNA | 8.37 ms/tick (2,000 working LV furnaces) | 3.74 ms/tick |
 | Allocation-light `getCovers()` (`gtcovers`) | Ascension Optimizer | 8.37 ms/tick | 3.93 ms/tick |
+| Multiblock EMI previews built on demand (`gtpreviews`) + soft shape cache in GTNA | Ascension Optimizer, GTNA | client in a world, 3 GB: live heap 1,947 MB, EMI reload 20.6 s; OOM at 1.5 GB | 1,588 MB, 12.2 s; runs at 1.5 GB |
 | ModernFix `dynamic_resources` on, LeanObject server-only | Pack config | client live heap at the menu 1,030 MB (4 GB limit) | 650 MB |
 
 ## Rules
