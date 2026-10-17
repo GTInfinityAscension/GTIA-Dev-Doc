@@ -34,3 +34,4 @@ This page lists the approved product decisions that shape development. Internal 
 | D-267 | Agronomica core: crop sticks, four Steam/LV crops, Growth/Gain/Resistance (soft cap above 20), cross-breeding with mutations, NPK soil and fertilisers. |
 | D-268 | HV bee line: all Productive Bees recipes and nests disabled; caged metal bees come from the Chemical Reactor, the Industrial Apiary (HV–UV) makes combs, combs give a small dust or, with HCl, purified ore. |
 | D-269 | Recommended client flags: G1 periodic GC with free ratios 10–30 % and `MALLOC_ARENA_MAX=2`; client RSS 6.0 → 4.4 GB with the same live heap. |
+| D-270 | No batched `@Synced` for now: a player next to 500 working LV furnaces receives about 1.3 KB/s; LDLib sync is not a network bottleneck. |
