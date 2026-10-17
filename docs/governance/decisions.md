@@ -26,3 +26,11 @@ This page lists the approved product decisions that shape development. Internal 
 | D-259 | Bees arrive in HV through Productive Bees with its base recipes removed. |
 | D-260 | Agronomica: our own crop mod, separate repository, LGPL-3.0. |
 | D-261 | Ore boost with a reagent: 1 crushed + 1 leaf + reagent → 3 purified. |
+| D-262 | GTIA Lib is the org's foundation library (depends on GTCEu); GTNA, GTIACore and Agronomica require it. GTOLib ideas are reimplemented from scratch, never copied. |
+| D-263 | Ascension Optimizer (`ascopt`, no GT dependency): spawn chunks 441 → 25; server ready in 31 s instead of 47 s. |
+| D-264 | Client uses ModernFix `dynamic_resources`; LeanObject is server-only (menu heap −37 %). |
+| D-265 | EMI multiblock previews built on demand and GTNA shape cache in SoftReference: EMI reload 20.6 → 12.2 s, client runs with 1.5 GB. |
+| D-266 | Draconium belongs to GTNA only; GTIACore's copy was removed. |
+| D-267 | Agronomica core: crop sticks, four Steam/LV crops, Growth/Gain/Resistance (soft cap above 20), cross-breeding with mutations, NPK soil and fertilisers. |
+| D-268 | HV bee line: all Productive Bees recipes and nests disabled; caged metal bees come from the Chemical Reactor, the Industrial Apiary (HV–UV) makes combs, combs give a small dust or, with HCl, purified ore. |
+| D-269 | Recommended client flags: G1 periodic GC with free ratios 10–30 % and `MALLOC_ARENA_MAX=2`; client RSS 6.0 → 4.4 GB with the same live heap. |
