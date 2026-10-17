@@ -59,3 +59,4 @@ This page lists the approved product decisions that shape development. Internal 
 | Mob enhancement | No mob changes in GTIA |
 | Circuit assembly line component amount | No circuit assembly line in GTIA |
 | D-284 | GTIA's own chemistry rules (54 rules in all): catalyst wear (Normal: 1 % chance per run that the Ostwald/Claus catalyst wears out; Journey: never) and heat recovery (Journey: 1.5× the steam of the chemistry plants). Organ textures redrawn; Organ Modifier screen shows the slots on a body outline with an effect readout. Main menu: one row of four textured buttons (Singleplayer, Multiplayer, Settings, Quit) and a Discord icon. |
+| D-285 | The Android `.mrpack` ships from 0.1.0-dev-4: Modrinth links where the exact file exists, every CurseForge-only jar inside the pack with the author's permission (owners informed; removed at once on request). Built locally with `tools/mrpack.py` and attached to the release. |
