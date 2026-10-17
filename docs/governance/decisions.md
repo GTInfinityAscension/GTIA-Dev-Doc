@@ -58,3 +58,4 @@ This page lists the approved product decisions that shape development. Internal 
 | Tiered casings | Kept off in both presets by an earlier pack decision |
 | Mob enhancement | No mob changes in GTIA |
 | Circuit assembly line component amount | No circuit assembly line in GTIA |
+| D-284 | GTIA's own chemistry rules (54 rules in all): catalyst wear (Normal: 1 % chance per run that the Ostwald/Claus catalyst wears out; Journey: never) and heat recovery (Journey: 1.5× the steam of the chemistry plants). Organ textures redrawn; Organ Modifier screen shows the slots on a body outline with an effect readout. Main menu: one row of four textured buttons (Singleplayer, Multiplayer, Settings, Quit) and a Discord icon. |
