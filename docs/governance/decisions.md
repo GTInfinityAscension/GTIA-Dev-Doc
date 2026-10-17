@@ -39,3 +39,22 @@ This page lists the approved product decisions that shape development. Internal 
 | D-276 | Start–MV quest chapters v7 in game, built like HV v6: recipe reason on every dependency, tier motor and turbine as central hubs, LV motor before the LV turbine, separate components, MV PVC board and CPU chip line, HV gets an HV steam turbine. Hidden lines use FTB's per-quest flags on either side; crossings and long lines are notes in `questgen check`. |
 | D-277 | Rocket Assembler (HV): 15 × 15 × 20 launch complex (twin stepped service towers, scaffold, umbilicals, crane bridge, flame trench), own casing with LDLib connected textures; the tier 1 rocket and its Ad Astra parts are made through GT and Ad Astra's own recipes for them are dropped. |
 | D-278 | Mode-only quests: GTIACore tags the player `gtia_journey` or `gtia_normal` from the world preset (Custom counts as Normal); a hidden `modes` chapter turns the tag into an FTB Quests stage, and quests marked with a mode stay hidden in the other one. The Start chapter's strong tool rewards become the Journey Starting Kit; Normal gets steel tools and an LV prospector. |
+| D-279 | Organ system ported from GTO 0.6 into GTIACore: 9 organ types × tiers 0–4, steel/fairy/mechanical wings, Organ Modifier screen (9 organ + 8 wing slots), organs kept in persisted player data. Effects as in GTO (leg speed scaled to +10/30/60/100 %, +5 armor and toughness per set tier, +4 reach, liver and lung perks, no hunger at set 3, flight at set 4). Ad Astra planets hurt players below set tier (t−1)/2+1 (Moon and Mars: 1). GTO assembler recipes; phantom membranes replace Botania in the cheap wings. GTO's "nano wall" is left out (GTOLib only). |
+| D-280 | GTIA Rules grow from 44 to 52 for parity with GTO Rules: rubber tree chance, infinite bedrock fluids, require GT tools (restart), material hazards, extra regeneration (food threshold and strength), planets need organs, organ cost. GTO rules without a GTIA mechanic stay out (see the table below). |
+| D-281 | MV/HV chemistry lines: Ostwald Converter (MV, cobalt oxide gauze; HV platinum gauze), Claus Unit, Kroll Reactor and Siemens Reactor (HV), Czochralski boule from 16 polysilicon in the EBF. Real stoichiometry and closed loops (NO, Mg/Cl₂, HCl). |
+| D-282 | Main menu with FancyMenu 3.9.12 (Konkrete, Melody) instead of PackMenu: animated emblem plus the author's text logo recoloured in purple, animated pixel-art space-factory background, buttons Singleplayer, Multiplayer, Mods, Settings, Quit and Discord. |
+| D-283 | Quest book highlight images: isometric renders of 19 multiblocks from the real textures (`modpack/tools/iso_render.py`). The Moon quest is a dimension task and the reachability model knows Ad Astra's own Moon blocks, so no lunar quest is pending. |
+
+### GTO Rules left out of GTIA Rules (D-280)
+
+| GTO rule | Why |
+| --- | --- |
+| Recipe / mod recipe / ore processing difficulty, fluid resource difficulty, tech tree difficulty | GTO-specific recipe sets; GTIA has one recipe set per pack, tuned by the recipe rules |
+| Scan duration, repeated scan factor, energy data hatch warm-up | No research tree (D-226) |
+| Space elevator, ME hatch energy, ME simple pattern buffer, ME muffler amplifier, virtual coin | Machines that only exist in GTO |
+| Generator array, wind turbine, magic generator, mega turbine, flow fuel cell, bio stimulation, wireless energy tower, lightning rod | Generators that only exist in GTO |
+| Large steam circuit assembler, large solar boiler, large steam storage tank, dual chamber | Steam machines that only exist in GTO; GTIA's steam rules cover the GTNA steam multiblocks |
+| Fluid pipe throughput, maintenance wear rate, random maintenance failures, configurable maintenance bounds, parallel hatch tier bonus, processing plant parallels, field generator amount, time twister, shut down on power loss, generators burn fuel when full, reset progress on low energy | No setting in GTCEu 7.5.3 to drive them |
+| Tiered casings | Kept off in both presets by an earlier pack decision |
+| Mob enhancement | No mob changes in GTIA |
+| Circuit assembly line component amount | No circuit assembly line in GTIA |
