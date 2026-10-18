@@ -7,6 +7,7 @@
 - Renewables are real routes: agriculture → biomass → chemistry.
 - Mobs come only from the GTNA Industrial Slaughterhouse (LV), never from real mob farms.
 - Rare elements come only as by-products of specific lines.
+- Base chemicals have one real route each: GTIA's plants (Bayer and Hall-Héroult for aluminium, Contact, Haber, Ostwald, diaphragm chlor-alkali, Solvay and lime kiln, Kroll, wood retort and still, catalytic dehydration). GTCEu's direct shortcuts to the same products are removed; by-products of other lines stay (D-294).
 
 ## Farming
 

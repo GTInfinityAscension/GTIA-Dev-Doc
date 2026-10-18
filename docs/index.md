@@ -4,6 +4,8 @@ Developer documentation for **GregTech Infinity Ascension** (GTIA), a GregTech m
 
 This site is for people who build the pack: what it is trying to be, how decisions are made, and how to write code for it. Players should start at the [modpack repository](https://github.com/GTInfinityAscension/GregTech-Infinity-Ascension).
 
+Community: [Discord](https://discord.gg/TW5vugknk5) · questions, bug reports and playtesting.
+
 | Section | What you find there |
 | --- | --- |
 | [Vision](vision/pillars.md) | The design pillars, what each tier is about, and the rules for each game system |
