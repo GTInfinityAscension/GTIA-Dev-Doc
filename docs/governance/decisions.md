@@ -76,3 +76,10 @@ This page lists the approved product decisions that shape development. Internal 
 | D-299 | Nothing from GTNA or GTIA is removed (lines, recipe types, machines). Late GTNA machines are gated by their controller recipe: the Integrated Ore Processor around IV/LuV, the PCB Factory after LuV. |
 | D-300 | Reusable machines and mechanics live in GTIACore (revises part of D-206). |
 | D-301 | Multiblock structures are proposed by the assistant at the level of detail of GTNA's structures and approved by the author, starting with the Wood Retort, Lime Kiln and Diaphragm Cell. |
+| D-302 | Chemistry slice 01 structures replace the D-251 boxes: Wood Retort as a brick bench with a wrought-iron retort, condenser and decanter (12×12×8); Lime Kiln as a banded shaft kiln with a hoist tower (7×14×5); Diaphragm Cell as a row of 3 to 9 Hooker cells, one parallel per cell, still limited by energy. |
+| D-303 | The Integrated Ore Processor controller moves from the EV Assembler to the IV Assembly Line (7,680 EU/t). |
+| D-304 | GTNH-style electrolyzer: 26 silicate and clay decompositions cost MV, 18 give Alumina instead of Aluminium (for the Hall-Héroult Cell), bastnasite gives Rare Earth instead of cerium; recycling and source ores stay. |
+| D-305 | Dust-to-fluid extraction is removed for 13 EBF-only materials (Extractor and Liquefaction Furnace); parts and ingots still melt. Greenhouses, Tree Growth Simulator and Atomization stay as they are. |
+| D-306 | Pig iron steelmaking with existing machines: PBF/EBF make Pig Iron and Slag from hematite or magnetite, coke and calcite; the LV Arc Furnace turns pig iron and oxygen into steel; slag replaces stone dust in concrete. |
+| D-307 | Air separation stays as it is (LV Centrifuge, Vacuum Freezer, Distillation Tower). |
+| D-308 | Three aluminium routes: dust in the EBF at HV (480 EU/t); dust pressed into Crude Aluminium and melted at MV, slowly; alumina and carbon in the EBF at MV, at half the Hall-Héroult yield. |
