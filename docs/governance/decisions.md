@@ -83,3 +83,4 @@ This page lists the approved product decisions that shape development. Internal 
 | D-306 | Pig iron steelmaking with existing machines: PBF/EBF make Pig Iron and Slag from hematite or magnetite, coke and calcite; the LV Arc Furnace turns pig iron and oxygen into steel; slag replaces stone dust in concrete. |
 | D-307 | Air separation stays as it is (LV Centrifuge, Vacuum Freezer, Distillation Tower). |
 | D-308 | Three aluminium routes: dust in the EBF at HV (480 EU/t); dust pressed into Crude Aluminium and melted at MV, slowly; alumina and carbon in the EBF at MV, at half the Hall-Héroult yield. |
+| D-309 | Naquadah reactor ladder in GTNA: the Large Naquadah Reactor (ported from GregTech Odyssey, UHV) and the Naquadah Hyper Reactor (GTNA original, UEV, four times the EU per mB, oxygen or nitrogen plasma boosters). GTNA adds Naquadah Fuel and Enriched Naquadah Fuel with simple default recipes; GT:IA will replace the fuel chain later. |
