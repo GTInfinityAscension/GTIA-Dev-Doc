@@ -102,7 +102,7 @@ This page lists the approved product decisions that shape development. Internal 
 | D-345 | The Pyrolyse Oven log recipes come back as the efficient MV wood route; the Coke Oven wood recipe stays the Steam one and replaces GTCEu's log to charcoal. |
 | D-346 | Branches reach main only after the author tests the new chemistry in the client. |
 | D-347 | The personal dimension portal is the reward of a Steam quest, with no crafting recipe. |
-| D-348 | Starting mining kit: a Mining Hammer and a GregTech pickaxe with Fortune, Unbreaking and Efficiency (iron, level III). Fortune works on GregTech ores with the vanilla ore formula, the same in both modes. |
+| D-348 | Starting mining kit: a Mining Hammer and a steel GregTech pickaxe with Fortune III, Unbreaking III and Efficiency III, in a Mining Kit quest for both modes. Fortune works on GregTech ores with the vanilla ore formula, the same in both modes. |
 | D-349 | AE2 in MV, GTO-style: drives, controller, terminals and autocrafting in the MV Assembler with MV circuits, processors in the MV Laser Engraver. HV unlocks ExtendedAE's Assembler Matrix, crafting CPUs above 4k, extended pattern providers and interfaces, wireless terminals and P2P. |
 | D-350 | Flux Matrix in HV: stainless steel and HV circuits, 3% loss in HV; no loss and cross-dimension network from EV. LV/MV wireless hatches stay but need the Flux Matrix. |
 | D-351 | The Wireless chapter is redone with the quest atlas method after Start → MV. |
