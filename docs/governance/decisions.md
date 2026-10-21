@@ -97,6 +97,13 @@ This page lists the approved product decisions that shape development. Internal 
 | D-340 | AE2 storage and first automation in MV; HV refinement unlocks parts such as ExtendedAE's Assembler Matrix. Wireless energy: Flux Matrix with losses in HV, full wireless in EV. GTNA wireless steam only in Journey; Normal uses pipes. |
 | D-341 | New EV power: fission reactor (GTNH/GTO port), nitrobenzene and high-octane fuels in the Large Combustion Engine, Large Gas Turbine on refinery gas. |
 | D-342 | Space: Ad Astra planets up to EV with adjusted resources, GTIA's own planets from IV. One visit per destination, then everything by data (Void Miner, fluids). Zero gravity stays required in EV; a Cleanroom-like multiblock simulates it on the ground. |
-| D-343 | Identity: eras named after the Kardashev scale; detailed GTNH-style multiblock tooltips plus one GTO-style joke line; nothing that skips a tier, shortcuts only as same-tier kits plus a GTNH-style vending machine; the 54 GTIA Rules stay. |
+| D-343 | Identity: eras named after the Kardashev scale; detailed GTNH-style multiblock tooltips plus one GTO-style joke line; nothing that skips a tier, shortcuts only as same-tier kits plus a GTNH-style vending machine; the GTIA Rules stay. |
 | D-344 | Cleanup: old internal docs are deleted; GTNA is fully reorganised and optimised, trilingual comments that repeat the code are removed, and content GTIA does not use is hidden by pack config. |
 | D-345 | The Pyrolyse Oven log recipes come back as the efficient MV wood route; the Coke Oven wood recipe stays the Steam one and replaces GTCEu's log to charcoal. |
+| D-346 | Branches reach main only after the author tests the new chemistry in the client. |
+| D-347 | The personal dimension portal is the reward of a Steam quest, with no crafting recipe. |
+| D-348 | Starting mining kit: a Mining Hammer and a GregTech pickaxe with Fortune, Unbreaking and Efficiency (iron, level III). Fortune works on GregTech ores with the vanilla ore formula, the same in both modes. |
+| D-349 | AE2 in MV, GTO-style: drives, controller, terminals and autocrafting in the MV Assembler with MV circuits, processors in the MV Laser Engraver. HV unlocks ExtendedAE's Assembler Matrix, crafting CPUs above 4k, extended pattern providers and interfaces, wireless terminals and P2P. |
+| D-350 | Flux Matrix in HV: stainless steel and HV circuits, 3% loss in HV; no loss and cross-dimension network from EV. LV/MV wireless hatches stay but need the Flux Matrix. |
+| D-351 | The Wireless chapter is redone with the quest atlas method after Start → MV. |
+| D-352 | The Eye of Ender only comes from an HV Assembler recipe (HV emitters and sensors use it); the End opens in HV. |
